@@ -26,7 +26,7 @@ impl HelloPlugin {
         let metadata = PluginMetadata {
             name: "hello_plugin".to_string(),
             describe: "一个简单的示例插件，用于演示基本功能".to_string(),
-            author: "Luo9".to_string(),
+            author: "luoy-oss".to_string(),
             version: "0.1.0".to_string(),
             message_types: vec![
                 "group_message".to_string(),
