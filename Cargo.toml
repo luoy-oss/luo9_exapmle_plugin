@@ -2,12 +2,12 @@
 name = "example_plugin"
 version = "0.1.0"
 edition = "2021"
+authors = ["luoy-oss <2557657882@qq.com>"]
 
 [lib]
 crate-type = ["cdylib"]
-
 [dependencies]
-luo9_sdk = { path = "../luo9_sdk" }
+luo9_sdk = "1.0.0"
 anyhow = "1.0"
 async-trait = "0.1"
 tokio = { version = "1.0", features = ["full"] }
